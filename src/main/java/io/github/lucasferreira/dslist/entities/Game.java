@@ -6,7 +6,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "tb_game")
-public class Game{
+public class Game {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -17,8 +17,14 @@ public class Game{
     private String genre;
     private String platforms;
     private Double score;
+
+    @Column(name = "img_url")
     private String imgUrl;
+
+    @Column(name = "short_description", columnDefinition = "TEXT")
     private String shortDescription;
+
+    @Column(name = "long_description", columnDefinition = "TEXT")
     private String longDescription;
 
     public Game() {
