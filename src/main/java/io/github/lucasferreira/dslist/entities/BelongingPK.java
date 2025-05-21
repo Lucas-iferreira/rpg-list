@@ -1,6 +1,5 @@
-package io.github.lucasferreira.dslist.controllers;
+package io.github.lucasferreira.dslist.entities;
 
-import io.github.lucasferreira.dslist.entities.Game;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;

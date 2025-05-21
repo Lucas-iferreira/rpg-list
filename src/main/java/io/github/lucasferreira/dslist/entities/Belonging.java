@@ -1,6 +1,5 @@
-package io.github.lucasferreira.dslist.controllers;
+package io.github.lucasferreira.dslist.entities;
 
-import io.github.lucasferreira.dslist.entities.Game;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;

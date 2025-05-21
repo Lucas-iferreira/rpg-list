@@ -1,4 +1,4 @@
-package io.github.lucasferreira.dslist.controllers;
+package io.github.lucasferreira.dslist.entities;
 
 import jakarta.persistence.*;
 
