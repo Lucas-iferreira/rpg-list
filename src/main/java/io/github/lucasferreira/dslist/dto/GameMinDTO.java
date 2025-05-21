@@ -1,6 +1,7 @@
 package io.github.lucasferreira.dslist.dto;
 
 import io.github.lucasferreira.dslist.entities.Game;
+import io.github.lucasferreira.dslist.projections.GameMinProjection;
 
 public class GameMinDTO {
 
@@ -10,10 +11,19 @@ public class GameMinDTO {
     private String imgUrl;
     private String shortDescription;
 
+
     public GameMinDTO() {
     }
 
     public GameMinDTO(Game entity) {
+        id = entity.getId();
+        title = entity.getTitle();
+        year = entity.getYear();
+        imgUrl = entity.getImgUrl();
+        shortDescription = entity.getShortDescription();
+    }
+
+    public GameMinDTO(GameMinProjection entity) {
         id = entity.getId();
         title = entity.getTitle();
         year = entity.getYear();
