@@ -2,7 +2,6 @@ package io.github.lucasferreira.dslist.controllers;
 
 import io.github.lucasferreira.dslist.dto.GameDTO;
 import io.github.lucasferreira.dslist.dto.GameMinDTO;
-import io.github.lucasferreira.dslist.entities.Game;
 import io.github.lucasferreira.dslist.service.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,12 +13,12 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/games")
-public class GameControllers {
+public class GameController {
 
     private GameService gameService;
 
     @Autowired
-    public GameControllers(GameService gameService) {
+    public GameController(GameService gameService) {
         this.gameService = gameService;
     }
 
