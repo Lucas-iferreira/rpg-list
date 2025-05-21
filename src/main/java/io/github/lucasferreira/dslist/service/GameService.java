@@ -18,6 +18,8 @@ public class GameService {
         this.gameRepository = gameRepository;
     }
 
+
+
     public List<GameMinDTO> findAll(){
         List<Game> listGames = gameRepository.findAll();
         List<GameMinDTO> dtoList = listGames.stream().map(GameMinDTO::new).toList();
