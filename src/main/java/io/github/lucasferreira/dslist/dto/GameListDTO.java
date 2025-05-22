@@ -1,9 +1,6 @@
 package io.github.lucasferreira.dslist.dto;
 
 import io.github.lucasferreira.dslist.entities.GameList;
-import org.springframework.beans.BeanUtils;
-
-import java.util.Objects;
 
 public class GameListDTO {
 
