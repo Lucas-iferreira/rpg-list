@@ -4,6 +4,7 @@
 #spring.jpa.properties.hibernate.hbm2ddl.delimiter=;
 
 
+
 spring:
 
   datasource:
