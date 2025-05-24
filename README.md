@@ -29,7 +29,7 @@ Quando acessado uma das coleções, retorna todos as especificações dos jogos:
 - Spring Web
 - Spring Data JPA
 - H2
-- PossgreSQL
+- PostgreSQL
 
 # Como executar o projeto
 
@@ -39,7 +39,7 @@ Pré-requisitos: Java 21
 # clonar repositório
 git clone https://github.com/Lucas-iferreira/rpg-list.git
 
-# Seed para povoar o banco de dados já no projeto "import.sql"
+# Seed para povoar o banco de dados já incluso no projeto -> "import.sql"
 
 # entrar na pasta do projeto back end
 cd backend
